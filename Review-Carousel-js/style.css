@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(242, 249, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow: hidden;
+}
+
+#heading{
+    text-align: center;
+    font-size: 8vh;
+    padding: 2vh;
+    position: relative;
+    left: 35vw;
+    width: fit-content;
+    border-bottom: 10px solid lightblue;
+    border-radius: 10px;
+}
+
+.container{
+    border-top: 5px solid lightblue;
+    border-right: 5px solid lightblue;
+    border-radius: 30px;
+    width: fit-content;
+    height: 75vh;
+    top: 25vh;
+    left: 35vw;
+    position: absolute;
+}
+
+.image{
+    position: relative;
+    width: fit-content;
+    top: 5vh;
+    left: 10vw;
+    /* border: 2px solid red; */
+}
+
+.image img{
+    max-width: 10vw;
+    border-right: 10px solid lightblue;
+    border-bottom: 10px solid lightblue;
+    border-radius: 50%;
+}
+
+#name{
+    text-align: center;
+    padding: 1vh;
+}
+
+#position{
+    text-align: center;
+    color: rgb(46, 172, 214);
+}
+
+.info{
+    position: relative;
+    top: 10vh;
+    max-width: 30vw;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.navigate{
+    position: relative;
+    width: fit-content;
+    top: 15vh;
+    left: 12vw;
+    max-width: 10vw;
+    align-items: center;
+}
+
+.navigate button{
+    background-color: #e7e7e7;
+    font-size: 30px;
+    border-radius: 12px;
+    color: blue;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+#left-nav{
+    font-size: 5vh;
+}
+
+#right-nav{
+    font-size: 5vh;
+}
+
+#left-nav:hover{
+    background-color: rgb(201, 249, 27);
+}
+
+#right-nav:hover{
+    background-color: rgb(201, 249, 27);
+}
+
+.surprise-me{
+    position: relative;
+    top: 23vh;
+    left: 7vw;
+}
+
+.surprise-me button{
+    font-size: 6vh;
+    background-color: #e7e7e7;
+    color: blue;
+    border-radius: 12px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+#sur:hover{
+    background-color: rgb(201, 249, 27);
+}
