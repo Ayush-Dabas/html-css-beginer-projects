@@ -1,0 +1,19 @@
+*{
+    font-family: cursive;
+    font-size: larger;
+}
+
+form{
+    width: 300px;
+        height: 530px;
+        margin: auto;
+        border: 3px solid skyblue;
+        border-radius: 5px;
+        padding: 20px;
+}
+
+.row-1{
+    width: 100%;
+    padding: 26px;
+    margin: 5px;
+}

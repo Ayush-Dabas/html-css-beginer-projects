@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>calculator</h1>
+    <form name="form1">
+      <input type="text" name="answer" id="calc" />
+      <br />
+      <input
+        class="row-1"
+        type="button"
+        value="1"
+        onclick="form1.answer.value += '1'"
+      />
+      <input
+        class="row-1"
+        type="button"
+        value="2"
+        onclick="form1.answer.value += '2'"
+      />
+      <input
+        class="row-1"
+        type="button"
+        value="3"
+        onclick="form1.answer.value += '3'"
+      />
+      <input
+        class="row-1"
+        type="button"
+        value="+"
+        onclick="form1.answer.value += '+'"
+      />
+      <br />
+      <input
+        class="row-2"
+        type="button"
+        value="4"
+        onclick="form1.answer.value += '4'"
+      />
+      <input
+        class="row-2"
+        type="button"
+        value="5"
+        onclick="form1.answer.value += '5'"
+      />
+      <input
+        class="row-2"
+        type="button"
+        value="6"
+        onclick="form1.answer.value += '6'"
+      />
+      <input
+        class="row-2"
+        type="button"
+        value="-"
+        onclick="form1.answer.value += '-'"
+      />
+      <br />
+      <input
+        class="row-3"
+        type="button"
+        value="7"
+        onclick="form1.answer.value += '7'"
+      />
+      <input
+        class="row-3"
+        type="button"
+        value="8"
+        onclick="form1.answer.value += '8'"
+      />
+      <input
+        class="row-3"
+        type="button"
+        value="9"
+        onclick="form1.answer.value += '9'"
+      />
+      <input
+        class="row-3"
+        type="button"
+        value="*"
+        onclick="form1.answer.value += '*'"
+      />
+      <br />
+      <input
+        class="row-4"
+        type="button"
+        value="/"
+        onclick="form1.answer.value += '/'"
+      />
+      <input
+        class="row-4"
+        type="button"
+        value="0"
+        onclick="form1.answer.value += '0'"
+      />
+      <input
+        class="row-4"
+        type="button"
+        value="."
+        onclick="form1.answer.value += '.'"
+      />
+      <input
+        type="button"
+        value="="
+        onclick="form1.answer.value = eval(form1.answer.value)"
+      />
+      <br />
+    </form>
+    <!-- <script src="app.js"></script> -->
+  </body>
+</html>
